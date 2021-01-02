@@ -1,0 +1,45 @@
+extends base.pug
+//- extends base.pug means we are filling the properties of base.pug
+
+block scripts
+    script(src='/static/index.js  ')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    
+
+    section#introsection
+      div Welcome To Krunal's Dance Academy
+      div Live  Eat  Sleep  Dance
+
+    section#missionsection
+        h3 Our mission
+        div#container
+          div.card#card1
+            h4 Dance Perfection
+            p This is the most popular dance academy of india.Hurry up and fill the form.This is the most popular dance academy of india.Hurry up and fill the form
+          div.card#card2
+            h4 Dance the way you like
+            p This is the most popular dance academy of india.Hurry up and fill the form.This is the most popular dance academy of india.Hurry up and fill the form
+          div.card#card3
+            h4 Expert Teaching
+            p This is the most popular dance academy of india.Hurry up and fill the form.This is the most popular dance academy of india.Hurry up and fill the form
+
+    section#sponcersection
+        h3 Our Sponcers
+        div.sponimg
+          div
+            img(src="/img/d1.jpg", alt="")
+          div
+            img(src="/img/l1.jpg", alt="")
+          div
+            img(src="/img/dance1.jpg", alt="")
+          div
+            img(src="/img/l3.jpg", alt="")
+          div
+            img(src="/img/lo.jpg", alt="")
+          div
+            img(src="/img/l2.jpg", alt="")

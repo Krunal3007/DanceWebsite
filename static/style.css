@@ -1,0 +1,138 @@
+@import url('https://fonts.gstatic.com');
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li a{
+    padding: 6px 30px;
+    text-decoration: none;
+    color: white;
+}
+#navbar li a:hover{
+    color: rgb(197, 47, 202);
+    text-decoration: underline;
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar{
+    background-color: #220064;
+    padding: 0px 34px;
+    font-family: 'Redressed', cursive;
+    position: sticky;
+    top: 0px;
+}
+#navimg img{
+    width: 55px;
+    height: 62px;
+    border-radius: 11px;
+    margin: 3px -403px;
+    /* filter: invert(0.2); */
+}
+
+#introsection{
+    background: url('dance.jpg') no-repeat center center/cover;
+    height: 500px;
+    font-family: 'Redressed', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    /* width: 600px; */
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+#missionsection{
+    height: 300px;
+    background-color: gray;
+}
+#missionsection h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Redressed', cursive;
+    color: white;
+
+}
+.card{
+    border: 2px solid orange;
+    width: 22%;
+    border-radius:20px;
+    height: 190px;
+    padding: 10px 18px;
+    margin: 11px 10px;
+    background-color: #2b2a76;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+.card h4{
+    text-align: center;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    color: #450a0a;
+}
+.card p{
+    text-align: center;
+    color: white;
+}
+#card1:hover{
+    background-color: rgb(207, 250, 16);
+    
+}
+#card2:hover{
+    background-color: rgb(233, 35, 183);
+    
+}
+#card3:hover{
+    background-color: rgb(31, 228, 80);
+    
+}
+#sponcersection{
+    height: 300px;
+    /* width: 300px; */
+    /* margin: 10px auto; */
+    /* text-align: center; */
+    background-color: #091041;
+}
+#sponcersection h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Redressed', cursive;
+    color: white;
+
+}
+.sponimg img{
+    display: inline-block;
+    float: right;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 10px 203px;
+    
+}
+#footer{
+    height: 45px;
+    /* width: 300px; */
+    /* margin: 10px auto; */
+    /* text-align: center; */
+    background-color: #0d2851;
+    color: white;
+    text-align: center;
+    padding: 4px 4px;
+    
+}
